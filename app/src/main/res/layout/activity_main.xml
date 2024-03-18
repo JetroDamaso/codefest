@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="175dp"
+        android:backgroundTint="#222831"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="169dp"
+        android:backgroundTint="#222831"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="169dp"
+        android:backgroundTint="#222831"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputlayout"
+        android:hint="Select an Option"
+        style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView2"
+            android:layout_width="288dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:inputType="none"
+            app:simpleItems="@array/options_list" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>
