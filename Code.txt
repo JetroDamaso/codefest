@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shapes xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+    <solid android:color="@color"/>
+    <size android:width="100dp" android:heigh="100dp" />
+
+    <shape android:shape="rectangle">
+        <solid android:color="@android:color/transparent" />
+        <stroke android:width="20dp" android:color="" />
+        <corners android:radius="20dp" />
+        <gradient
+            android:startColor=""
+            android:centerColor=""
+            android:endColor=""
+            android:angle="90" />
+        <corners
+            android:radius="0dp" />
+    
+
+</shapes>
+
+//to call the use android:background="@drawable/name"
